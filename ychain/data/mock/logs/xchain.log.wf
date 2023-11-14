@@ -1,0 +1,2 @@
+t=2022-12-15T10:24:00+0800 lvl=eror msg="Mempool Debug" module=xchain log_id=1671071040_8590474879342582 s_mod=state call=mempool.go:63 pid=35416 confirmedLen=0 unconfirmedLen=0 orphanLen=0 bucketKeyNodesLen=0
+t=2022-12-15T10:24:00+0800 lvl=eror msg="Mempool Debug" module=xchain log_id=1671071040_5401617651585750 s_mod=state call=mempool.go:63 pid=35416 confirmedLen=0 unconfirmedLen=0 orphanLen=0 bucketKeyNodesLen=0

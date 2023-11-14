@@ -1,0 +1,5 @@
+t=2022-12-15T10:23:59+0800 lvl=eror msg="Mempool Debug" module=xchain log_id=1671071039_8590474582403582 s_mod=state call=mempool.go:63 pid=35415 confirmedLen=0 unconfirmedLen=0 orphanLen=0 bucketKeyNodesLen=0
+t=2022-12-15T10:23:59+0800 lvl=eror msg="Mempool Debug" module=xchain log_id=1671071039_1927222228204731 s_mod=state call=mempool.go:63 pid=35415 confirmedLen=0 unconfirmedLen=0 orphanLen=0 bucketKeyNodesLen=0
+t=2022-12-15T10:23:59+0800 lvl=eror msg="Mempool Debug" module=xchain log_id=1671071039_8709849852108774 s_mod=state call=mempool.go:63 pid=35415 confirmedLen=0 unconfirmedLen=0 orphanLen=0 bucketKeyNodesLen=0
+t=2022-12-15T10:24:00+0800 lvl=eror msg="Mempool Debug" module=xchain log_id=1671071039_2671091899661173 s_mod=state call=mempool.go:63 pid=35415 confirmedLen=0 unconfirmedLen=0 orphanLen=0 bucketKeyNodesLen=0
+t=2022-12-15T10:24:00+0800 lvl=eror msg="Mempool Debug" module=xchain log_id=1671071040_3934205109799194 s_mod=state call=mempool.go:63 pid=35415 confirmedLen=0 unconfirmedLen=0 orphanLen=0 bucketKeyNodesLen=0
