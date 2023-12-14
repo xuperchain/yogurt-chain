@@ -10,8 +10,8 @@ import (
 
 	"github.com/xuperchain/crypto/common/account"
 
-	"github.com/xuperchain/yogurt-chain/ychain/models"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/models"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // test data path

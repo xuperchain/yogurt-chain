@@ -3,16 +3,16 @@ package models
 import (
 	"math/big"
 
-	lpb "github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/xldgpb"
-	xCtx "github.com/xuperchain/yogurt-chain/ychain/kernel/common/xcontext"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/common"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/reader"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/xpb"
-	aclUtils "github.com/xuperchain/yogurt-chain/ychain/kernel/permission/acl/utils"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/logs"
-	"github.com/xuperchain/yogurt-chain/ychain/protos"
+	lpb "github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/xldgpb"
+	xCtx "github.com/OpenAtomFoundation/xupercore/global/kernel/common/xcontext"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/common"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/reader"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/xpb"
+	aclUtils "github.com/OpenAtomFoundation/xupercore/global/kernel/permission/acl/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/logs"
+	"github.com/OpenAtomFoundation/xupercore/global/protos"
 
-	sCtx "github.com/xuperchain/yogurt-chain/ychain/service/context"
+	sCtx "github.com/OpenAtomFoundation/xupercore/global/service/context"
 )
 
 type ChainHandle struct {

@@ -11,19 +11,19 @@ import (
 	"log"
 	"path/filepath"
 
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/def"
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/ledger"
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state"
+	sctx "github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/context"
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/xldgpb"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/common/xconfig"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/crypto/client"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/logs"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/storage/kvdb"
+	_ "github.com/OpenAtomFoundation/xupercore/global/lib/storage/kvdb/leveldb"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
 	"github.com/golang/protobuf/proto" //nolint:staticcheck
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/def"
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/ledger"
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state"
-	sctx "github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/context"
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/xldgpb"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/common/xconfig"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/crypto/client"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/logs"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/storage/kvdb"
-	_ "github.com/xuperchain/yogurt-chain/ychain/lib/storage/kvdb/leveldb"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
 )
 
 // PruneLedgerCommand prune ledger  cmd

@@ -8,8 +8,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // AccountQueryCommand query acl struct

@@ -3,62 +3,63 @@ module github.com/xuperchain/yogurt-chain/ychain
 go 1.19
 
 require (
-	github.com/aws/aws-sdk-go v1.32.4
-	github.com/btcsuite/btcutil v0.0.0-20190425235716-9e5f4b9a998d
-	github.com/dgraph-io/badger/v3 v3.2103.5
-	github.com/docker/go-units v0.5.0
-	github.com/emirpasic/gods v1.12.1-0.20201118132343-79df803e554c
+	github.com/OpenAtomFoundation/xupercore/global v0.0.0-20231214065518-772d9bb56924
 	github.com/ethereum/go-ethereum v1.11.6
-	github.com/fsouza/go-dockerclient v1.9.7
-	github.com/gammazero/deque v0.1.0
-	github.com/xuperchain/yogurt-chain/crypto-dll-go v0.0.0-20230724115416-fe8389d5822d
-	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.5.3
-	github.com/golang/snappy v0.0.5-0.20220116011046-fa5810519dcb
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
-	github.com/hashicorp/golang-lru v0.5.4
 	github.com/hyperledger/burrow v0.30.5
-	github.com/ipfs/go-ipfs-addr v0.0.1
-	github.com/libp2p/go-libp2p v0.11.0
-	github.com/libp2p/go-libp2p-circuit v0.3.1
-	github.com/libp2p/go-libp2p-core v0.6.1
-	github.com/libp2p/go-libp2p-kad-dht v0.8.2
-	github.com/libp2p/go-libp2p-kbucket v0.4.2
-	github.com/libp2p/go-libp2p-record v0.1.2
-	github.com/libp2p/go-libp2p-secio v0.2.2
-	github.com/libp2p/go-libp2p-swarm v0.2.8
 	github.com/manifoldco/promptui v0.7.0
 	github.com/mitchellh/mapstructure v1.4.1
-	github.com/multiformats/go-multiaddr v0.3.1
-	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.14.0
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/viper v1.8.1
-	github.com/stretchr/testify v1.8.4
-	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
-	github.com/tmthrgd/go-hex v0.0.0-20190303111820-0bdcb15db631
 	github.com/xuperchain/crypto v0.0.0-20230728040913-ea9045636ba9
-	github.com/xuperchain/log15 v0.0.0-20190620081506-bc88a9198230
-	github.com/xuperchain/xvm v0.0.0-20210126142521-68fd016c56d7
-	golang.org/x/crypto v0.6.0
-	golang.org/x/sync v0.1.0
 	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4
 	google.golang.org/grpc v1.53.0
+)
+
+require (
+	github.com/aws/aws-sdk-go v1.32.4 // indirect
+	github.com/btcsuite/btcutil v0.0.0-20190425235716-9e5f4b9a998d // indirect
+	github.com/docker/go-units v0.5.0 // indirect
+	github.com/emirpasic/gods v1.12.1-0.20201118132343-79df803e554c // indirect
+	github.com/fsouza/go-dockerclient v1.9.7 // indirect
+	github.com/gammazero/deque v0.1.0 // indirect
+	github.com/gogo/protobuf v1.3.2 // indirect
+	github.com/golang/snappy v0.0.5-0.20220116011046-fa5810519dcb // indirect
+	github.com/hashicorp/golang-lru v0.5.4 // indirect
+	github.com/ipfs/go-ipfs-addr v0.0.1 // indirect
+	github.com/libp2p/go-libp2p v0.11.0 // indirect
+	github.com/libp2p/go-libp2p-circuit v0.3.1 // indirect
+	github.com/libp2p/go-libp2p-core v0.6.1 // indirect
+	github.com/libp2p/go-libp2p-kad-dht v0.8.2 // indirect
+	github.com/libp2p/go-libp2p-kbucket v0.4.2 // indirect
+	github.com/libp2p/go-libp2p-record v0.1.2 // indirect
+	github.com/libp2p/go-libp2p-secio v0.2.2 // indirect
+	github.com/libp2p/go-libp2p-swarm v0.2.8 // indirect
+	github.com/multiformats/go-multiaddr v0.3.1 // indirect
+	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
+	github.com/tmthrgd/go-hex v0.0.0-20190303111820-0bdcb15db631 // indirect
+	github.com/xuperchain/log15 v0.0.0-20190620081506-bc88a9198230 // indirect
+	github.com/xuperchain/xvm v0.0.0-20210126142521-68fd016c56d7 // indirect
+	golang.org/x/crypto v0.6.0 // indirect
+	golang.org/x/sync v0.1.0 // indirect
 )
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20200626160457-b38283118816 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
-	github.com/OneOfOne/xxhash v1.2.8 // indirect
+	github.com/OpenAtomFoundation/xupercore/crypto-dll-go v0.0.0-20231214063800-d385e2c4dd24 // indirect
+	github.com/OpenAtomFoundation/xupercore/crypto-rust/x-crypto-ffi v0.0.0-20231214063800-d385e2c4dd24 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/btcsuite/btcd v0.20.1-beta // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
-	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/chzyer/readline v1.5.0 // indirect
 	github.com/consensys/bavard v0.1.13 // indirect
@@ -70,10 +71,8 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/davidlazar/go-crypto v0.0.0-20170701192655-dcfb0a7ac018 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
-	github.com/dgraph-io/ristretto v0.1.1 // indirect
 	github.com/docker/docker v24.0.4+incompatible // indirect
 	github.com/docker/go-connections v0.4.1-0.20180821093606-97c2040d34df // indirect
-	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/edsrzf/mmap-go v1.0.0 // indirect
 	github.com/flynn/noise v0.0.0-20180327030543-2492fe189ae6 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
@@ -81,10 +80,6 @@ require (
 	github.com/go-kit/kit v0.9.0 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
-	github.com/xuperchain/yogurt-chain/crypto-rust/x-crypto-ffi v0.0.0-20230608061311-2c9ce40cd564 // indirect
-	github.com/golang/glog v1.0.0 // indirect
-	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/google/flatbuffers v1.12.1 // indirect
 	github.com/google/gopacket v1.1.17 // indirect
 	github.com/google/pprof v0.0.0-20230207041349-798e818bf904 // indirect
 	github.com/google/uuid v1.3.0 // indirect
@@ -170,7 +165,6 @@ require (
 	github.com/opencontainers/runc v1.1.5 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.39.0 // indirect
 	github.com/prometheus/procfs v0.9.0 // indirect
@@ -208,8 +202,6 @@ require (
 	google.golang.org/protobuf v1.29.1 // indirect
 	gopkg.in/ini.v1 v1.62.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gotest.tools/v3 v3.5.0 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
 
@@ -217,6 +209,8 @@ replace github.com/hyperledger/burrow => github.com/xuperchain/burrow v0.30.6-0.
 
 replace github.com/Sirupsen/logrus => github.com/sirupsen/logrus v1.9.3
 
-replace github.com/xuperchain/yogurt-chain/crypto-dll-go => ../crypto-dll-go
+// replace github.com/OpenAtomFoundation/xupercore/crypto-dll-go => ../../../OpenAtomFoundation/xupercore-global/crypto-dll-go
 
-replace github.com/xuperchain/yogurt-chain/crypto-rust/x-crypto-ffi => ../crypto-rust/x-crypto-ffi
+// replace github.com/OpenAtomFoundation/xupercore/crypto-rust/x-crypto-ffi => ../../../OpenAtomFoundation/xupercore-global/crypto-rust/x-crypto-ffi
+
+// replace github.com/OpenAtomFoundation/xupercore/global => ../../../OpenAtomFoundation/xupercore-global/ychain

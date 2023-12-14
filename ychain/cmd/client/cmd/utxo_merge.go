@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/utxo"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/utxo"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
 
-	aclUtils "github.com/xuperchain/yogurt-chain/ychain/kernel/permission/acl/utils"
-	"github.com/xuperchain/yogurt-chain/ychain/service/common"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	aclUtils "github.com/OpenAtomFoundation/xupercore/global/kernel/permission/acl/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/service/common"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // MergeUtxoCommand necessary parameter for merge utxo

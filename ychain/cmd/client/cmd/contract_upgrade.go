@@ -10,7 +10,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/utxo"
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/utxo"
 )
 
 // ContractUpgradeCommand wasm upgrade cmd

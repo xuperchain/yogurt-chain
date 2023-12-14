@@ -3,9 +3,9 @@ package mock
 import (
 	"path/filepath"
 
-	xconf "github.com/xuperchain/yogurt-chain/ychain/kernel/common/xconfig"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/logs"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
+	xconf "github.com/OpenAtomFoundation/xupercore/global/kernel/common/xconfig"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/logs"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
 )
 
 func NewEnvConfForTest(paths ...string) (*xconf.EnvConf, error) {

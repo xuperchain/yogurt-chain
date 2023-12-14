@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/utxo"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/permission/acl/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/utxo"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/permission/acl/utils"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
 )
 
 // AccountNewCommand new account struct

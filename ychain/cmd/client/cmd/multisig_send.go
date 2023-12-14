@@ -13,13 +13,13 @@ import (
 	"io/ioutil"
 	"strings"
 
+	"github.com/OpenAtomFoundation/xupercore/global/lib/crypto/client"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
 	"github.com/golang/protobuf/proto" //nolint:staticcheck
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/crypto/client"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
 
-	"github.com/xuperchain/yogurt-chain/ychain/service/common"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/service/common"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // MultisigSendCommand multisig send struct

@@ -6,11 +6,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/xuperchain/yogurt-chain/ychain/lib/crypto/client/base"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/crypto/client/base"
 
-	"github.com/xuperchain/yogurt-chain/ychain/models"
-	"github.com/xuperchain/yogurt-chain/ychain/service/common"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/models"
+	"github.com/OpenAtomFoundation/xupercore/global/service/common"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // file names in AK directory

@@ -12,11 +12,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
 	"github.com/golang/protobuf/proto" //nolint:staticcheck
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
 
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // TxQueryCommand tx query cmd

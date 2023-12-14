@@ -5,7 +5,7 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
 
 	"github.com/spf13/viper"
 )

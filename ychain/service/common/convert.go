@@ -5,9 +5,9 @@ import (
 
 	"github.com/golang/protobuf/proto" //nolint:staticcheck
 
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/xldgpb"
-	"github.com/xuperchain/yogurt-chain/ychain/protos"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/xldgpb"
+	"github.com/OpenAtomFoundation/xupercore/global/protos"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // 为了完全兼容老版本pb结构，转换交易结构

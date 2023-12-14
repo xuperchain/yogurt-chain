@@ -9,11 +9,11 @@ import (
 
 	"google.golang.org/grpc/peer"
 
-	ecom "github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/common"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/event"
-	acom "github.com/xuperchain/yogurt-chain/ychain/service/common"
-	sconf "github.com/xuperchain/yogurt-chain/ychain/service/config"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	ecom "github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/common"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/event"
+	acom "github.com/OpenAtomFoundation/xupercore/global/service/common"
+	sconf "github.com/OpenAtomFoundation/xupercore/global/service/config"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // eventService implements the interface of pb.EventService

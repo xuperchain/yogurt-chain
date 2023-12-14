@@ -27,6 +27,7 @@ make
 #### 信标链层
 
 信标链层作为 Yogurt 网络的共识基础层，需要编译 BLS 以及 ychain：
+需要先下载 https://github.com/OpenAtomFoundation/xupercore/tree/global 代码，在 global 分支上，执行后续操作。
 
 BLS 动态链接库编译：
 

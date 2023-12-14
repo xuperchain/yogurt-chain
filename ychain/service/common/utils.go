@@ -3,9 +3,9 @@ package common
 import (
 	"fmt"
 
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/utxo/txhash"
-	crypto_base "github.com/xuperchain/yogurt-chain/ychain/lib/crypto/client/base"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/utxo/txhash"
+	crypto_base "github.com/OpenAtomFoundation/xupercore/global/lib/crypto/client/base"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // 适配原结构计算txid

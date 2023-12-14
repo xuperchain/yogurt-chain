@@ -8,8 +8,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/contract/proposal/utils"
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/contract/proposal/utils"
 )
 
 // GovernTokenQueryCommand govern token query cmd

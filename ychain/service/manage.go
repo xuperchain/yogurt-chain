@@ -3,13 +3,13 @@ package service
 import (
 	"fmt"
 
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/engines"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/logs"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/engines"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/logs"
 
-	scom "github.com/xuperchain/yogurt-chain/ychain/service/common"
-	sconf "github.com/xuperchain/yogurt-chain/ychain/service/config"
-	gw "github.com/xuperchain/yogurt-chain/ychain/service/gateway"
-	"github.com/xuperchain/yogurt-chain/ychain/service/rpc"
+	scom "github.com/OpenAtomFoundation/xupercore/global/service/common"
+	sconf "github.com/OpenAtomFoundation/xupercore/global/service/config"
+	gw "github.com/OpenAtomFoundation/xupercore/global/service/gateway"
+	"github.com/OpenAtomFoundation/xupercore/global/service/rpc"
 )
 
 // 由于需要同时启动多个服务组件，采用注册机制管理

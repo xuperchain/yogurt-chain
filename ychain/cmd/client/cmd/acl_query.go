@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
 )
 
 // ACLQueryCommand query acl struct

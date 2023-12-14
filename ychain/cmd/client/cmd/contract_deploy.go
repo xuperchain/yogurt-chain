@@ -9,12 +9,12 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/utxo"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/contract/bridge"
 	"github.com/golang/protobuf/proto" //nolint:staticcheck
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/utxo"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/contract/bridge"
 
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // ContractDeployCommand wasm/native/evm deploy cmd

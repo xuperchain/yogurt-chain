@@ -17,16 +17,16 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/utxo"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/contract"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/crypto/client"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
 	"github.com/golang/protobuf/proto" //nolint:staticcheck
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/utxo"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/contract"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/crypto/client"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
 	"google.golang.org/grpc"
 
-	"github.com/xuperchain/yogurt-chain/ychain/models"
-	"github.com/xuperchain/yogurt-chain/ychain/service/common"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/models"
+	"github.com/OpenAtomFoundation/xupercore/global/service/common"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 const (

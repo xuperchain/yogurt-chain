@@ -19,15 +19,15 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/engines"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos"
-	ecom "github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/common"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/logs"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/metrics"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/engines"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos"
+	ecom "github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/common"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/logs"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/metrics"
 
-	scom "github.com/xuperchain/yogurt-chain/ychain/service/common"
-	sconf "github.com/xuperchain/yogurt-chain/ychain/service/config"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	scom "github.com/OpenAtomFoundation/xupercore/global/service/common"
+	sconf "github.com/OpenAtomFoundation/xupercore/global/service/config"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // rpc server启停控制管理

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
 )
 
 func TestLoadServConf(t *testing.T) {

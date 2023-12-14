@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xuperchain/yogurt-chain/ychain/data/mock"
-	_ "github.com/xuperchain/yogurt-chain/ychain/lib/storage/kvdb/leveldb"
+	"github.com/OpenAtomFoundation/xupercore/global/data/mock"
+	_ "github.com/OpenAtomFoundation/xupercore/global/lib/storage/kvdb/leveldb"
 )
 
 func TestPruneLedger(t *testing.T) {

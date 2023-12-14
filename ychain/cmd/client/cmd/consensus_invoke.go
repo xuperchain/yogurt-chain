@@ -8,9 +8,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/utxo"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/utxo"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // 本文件封装了和共识模块有关的client调用接口, 具体格式为:

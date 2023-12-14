@@ -12,11 +12,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"
 
-	ecom "github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/common"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/logs"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
-	scom "github.com/xuperchain/yogurt-chain/ychain/service/common"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	ecom "github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/common"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/logs"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
+	scom "github.com/OpenAtomFoundation/xupercore/global/service/common"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 type RpcServ struct {

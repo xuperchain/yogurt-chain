@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/xuperchain/crypto/gm/hdwallet/rand"
 
-	crypto_client "github.com/xuperchain/yogurt-chain/ychain/lib/crypto/client"
+	crypto_client "github.com/OpenAtomFoundation/xupercore/global/lib/crypto/client"
 )
 
 // AccountRestoreCommand restore account by mnemonic

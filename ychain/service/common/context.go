@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/common"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/logs"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/timer"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/common"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/logs"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/timer"
 )
 
 const (

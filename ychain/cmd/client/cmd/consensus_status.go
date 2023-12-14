@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
 )
 
 // 本文件封装了和共识模块有关的client调用接口, 具体格式为:

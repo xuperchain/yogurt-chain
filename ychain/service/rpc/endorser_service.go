@@ -15,13 +15,13 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"
 
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/utxo/txhash"
-	ecom "github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/common"
-	crypto "github.com/xuperchain/yogurt-chain/ychain/lib/crypto/client"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/crypto/hash"
-	scom "github.com/xuperchain/yogurt-chain/ychain/service/common"
-	sconf "github.com/xuperchain/yogurt-chain/ychain/service/config"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/utxo/txhash"
+	ecom "github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/common"
+	crypto "github.com/OpenAtomFoundation/xupercore/global/lib/crypto/client"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/crypto/hash"
+	scom "github.com/OpenAtomFoundation/xupercore/global/service/common"
+	sconf "github.com/OpenAtomFoundation/xupercore/global/service/config"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 const (

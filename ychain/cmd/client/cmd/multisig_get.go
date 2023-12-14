@@ -8,12 +8,12 @@ import (
 	"io/ioutil"
 	"math/big"
 
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/utxo"
 	"github.com/golang/protobuf/proto" //nolint:staticcheck
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/utxo"
 	"google.golang.org/grpc"
 
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 type GetComplianceCheckSignCommand struct {

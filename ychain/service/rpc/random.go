@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	ecom "github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/common"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/xrandom"
-	eth "github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/xrandom/ecdsa"
-	scom "github.com/xuperchain/yogurt-chain/ychain/service/common"
-	sconf "github.com/xuperchain/yogurt-chain/ychain/service/config"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	ecom "github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/common"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/xrandom"
+	eth "github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/xrandom/ecdsa"
+	scom "github.com/OpenAtomFoundation/xupercore/global/service/common"
+	sconf "github.com/OpenAtomFoundation/xupercore/global/service/config"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 type RandomServer struct {

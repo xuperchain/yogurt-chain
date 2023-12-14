@@ -11,7 +11,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/contract/bridge"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/contract/bridge"
 )
 
 // ContractQueryCommand wasm/native/evm query cmd

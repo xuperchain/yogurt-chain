@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/common"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/logs"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/timer"
-	scom "github.com/xuperchain/yogurt-chain/ychain/service/common"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/common"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/logs"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/timer"
+	scom "github.com/OpenAtomFoundation/xupercore/global/service/common"
 )
 
 const (

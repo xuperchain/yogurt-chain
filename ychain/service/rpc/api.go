@@ -4,13 +4,13 @@ import (
 	"context"
 	"math/big"
 
-	ecom "github.com/xuperchain/yogurt-chain/ychain/kernel/engines/xuperos/common"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/network/p2p"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
-	"github.com/xuperchain/yogurt-chain/ychain/models"
-	"github.com/xuperchain/yogurt-chain/ychain/protos"
-	scom "github.com/xuperchain/yogurt-chain/ychain/service/common"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	ecom "github.com/OpenAtomFoundation/xupercore/global/kernel/engines/xuperos/common"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/network/p2p"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/models"
+	"github.com/OpenAtomFoundation/xupercore/global/protos"
+	scom "github.com/OpenAtomFoundation/xupercore/global/service/common"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // 注意：

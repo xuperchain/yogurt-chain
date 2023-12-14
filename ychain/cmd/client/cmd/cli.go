@@ -17,16 +17,16 @@ import (
 	"os"
 	"time"
 
+	"github.com/OpenAtomFoundation/xupercore/global/lib/crypto/client"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/crypto/client/base"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/utils"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/crypto/client"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/crypto/client/base"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/utils"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/xuperchain/yogurt-chain/ychain/service/common"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
+	"github.com/OpenAtomFoundation/xupercore/global/service/common"
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 )
 
 // CommandFunc 代表了一个子命令，用于往Cli注册子命令

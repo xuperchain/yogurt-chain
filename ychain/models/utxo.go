@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/xuperchain/yogurt-chain/ychain/lib/crypto/hash"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/crypto/hash"
 )
 
 // LockedUtxo UTXO to be locked for operation

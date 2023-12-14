@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/utils"
-	"github.com/xuperchain/yogurt-chain/ychain/kernel/common/xconfig"
-	"github.com/xuperchain/yogurt-chain/ychain/lib/logs"
-	_ "github.com/xuperchain/yogurt-chain/ychain/lib/storage/kvdb/leveldb"
-	xutils "github.com/xuperchain/yogurt-chain/ychain/lib/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/utils"
+	"github.com/OpenAtomFoundation/xupercore/global/kernel/common/xconfig"
+	"github.com/OpenAtomFoundation/xupercore/global/lib/logs"
+	_ "github.com/OpenAtomFoundation/xupercore/global/lib/storage/kvdb/leveldb"
+	xutils "github.com/OpenAtomFoundation/xupercore/global/lib/utils"
 
 	"github.com/spf13/cobra"
 )

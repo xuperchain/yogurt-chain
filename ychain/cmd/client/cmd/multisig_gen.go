@@ -15,8 +15,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/xuperchain/yogurt-chain/ychain/bcs/ledger/xledger/state/utxo"
-	crypto_client "github.com/xuperchain/yogurt-chain/ychain/lib/crypto/client"
+	"github.com/OpenAtomFoundation/xupercore/global/bcs/ledger/xledger/state/utxo"
+	crypto_client "github.com/OpenAtomFoundation/xupercore/global/lib/crypto/client"
 )
 
 // MultisigGenCommand multisig generate struct

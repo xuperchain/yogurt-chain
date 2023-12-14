@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/OpenAtomFoundation/xupercore/global/service/pb"
 	"github.com/spf13/cobra"
-	"github.com/xuperchain/yogurt-chain/ychain/service/pb"
 )
 
 // AccountContractsCommand
